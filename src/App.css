@@ -1,0 +1,53 @@
+.header {
+  background: linear-gradient(to bottom right, #6562C6, #894BA6);
+  padding: 64px 25%;
+  color: #fff;
+  text-align: center;
+}
+
+.header .praise-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.header .praise-input {
+  text-align: left;
+}
+
+.header .praise-submit-btn {
+  margin-top: 12px;
+  width: 160px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 64px 64px 16px 64px;
+}
+
+.praise-item-container {
+  box-sizing: border-box;
+  width: 25%;
+  flex: 0 0 auto;
+  padding: 8px;
+}
+
+@media (max-width: 960px) and (min-width: 540px) {
+  .header, .content {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .praise-item-container {
+    width: 50%;
+  }
+}
+@media (max-width: 540px) {
+  .header, .content {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .praise-item-container {
+    width: 100%;
+  }
+}

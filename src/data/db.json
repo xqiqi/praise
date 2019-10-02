@@ -1,0 +1,61 @@
+{
+  "users": [
+    {
+      "id": "john1997",
+      "name": "John",
+      "avatar": "https://pbs.twimg.com/profile_images/974736784906248192/gPZwCbdS.jpg"
+    },
+    {
+      "id": "xiaomin",
+      "name": "Xiaomin",
+      "avatar": "https://randomuser.me/api/portraits/men/90.jpg"
+    },
+    {
+      "id": "cchen",
+      "name": "Charles Chen",
+      "avatar": "https://pbs.twimg.com/profile_images/514958948563030018/HJp5Enpt.jpeg"
+    },
+    {
+      "id": "lucy",
+      "name": "Lucy Lee",
+      "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
+    },
+    {
+      "id": "amanda",
+      "name": "Amanda",
+      "avatar": "https://randomuser.me/api/portraits/women/63.jpg"
+    },
+    {
+      "id": "sara2000",
+      "name": "Sara",
+      "avatar": "https://images.unsplash.com/photo-1509868918748-a554ad25f858?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=3159ec467959b2aada4b75d565c270aa"
+    }
+  ],
+  "praises": [
+    {
+      "id": "praise-1570025855141",
+      "content": "Good job!!! @amanda @john1997 ",
+      "createdTime": "2019-10-02T14:17:35.141Z"
+    },
+    {
+      "id": "praise-1570026329684",
+      "content": "@xiaomin did something great! Congratulations to him!",
+      "createdTime": "2019-10-02T14:25:29.684Z"
+    },
+    {
+      "id": "praise-1570026364277",
+      "content": "@cchen did something great! Congratulations to him!",
+      "createdTime": "2019-10-02T14:26:04.277Z"
+    },
+    {
+      "id": "praise-1570026380542",
+      "content": "@lucy @sara2000 hahahaha good job!!!",
+      "createdTime": "2019-10-02T14:26:20.542Z"
+    },
+    {
+      "id": "praise-1570028016675",
+      "content": "@john1997 great!",
+      "createdTime": "2019-10-02T14:53:36.675Z"
+    }
+  ]
+}
