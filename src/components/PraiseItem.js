@@ -5,18 +5,22 @@ import * as request from '../common/request';
 import './PraiseItem.css';
 
 function PraiseTarget ({ userId }) {
-  const [user, setUser] = useState({});
+  const [user, setUser] = useState();
   useEffect(() => {
     async function getUser() {
       const res = await request.get(`/users/${userId}`);
       if (res.success) {
         setUser(res.payload);
+      } else {
+        setUser({});
       }
     }
     getUser();
   }, [userId]);
-  if (!user || !user.id) {
+  if (!user) {
     return <Spin size="small" />;
+  } else if (!user.id) {
+    return <span>Not Found</span>;
   }
   return (
     <div className="praise-target">

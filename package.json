@@ -20,8 +20,7 @@
   "scripts": {
     "start": "json-server --watch ./src/data/db.json -p 4000 & react-app-rewired start",
     "build": "react-app-rewired build",
-    "test": "react-app-rewired test",
-    "eject": "react-scripts eject"
+    "test": "react-app-rewired test"
   },
   "eslintConfig": {
     "extends": "react-app"
